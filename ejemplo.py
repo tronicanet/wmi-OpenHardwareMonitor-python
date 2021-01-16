@@ -5,3 +5,8 @@ for sensor in temperature_infos:
     if sensor.SensorType==u'Temperature':
         print(sensor.Name)
         print(sensor.Value) 
+
+
+for sensor in temperature_infos:
+    print(sensor.Name)
+    print(sensor.Value) 
