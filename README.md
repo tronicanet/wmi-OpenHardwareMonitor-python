@@ -1,4 +1,6 @@
 # wmi-OpenHardwareMonitor-python
 
 
-get-wmiobject -namespace root\OpenHardwareMonitor -query 'select * from Sensor'
+
+##desde PowerShell
+### get-wmiobject -namespace root\OpenHardwareMonitor -query 'select * from Sensor'
